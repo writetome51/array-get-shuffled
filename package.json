@@ -1,0 +1,22 @@
+{
+  "name": "@writetome51/get-shuffled",
+  "version": "1.0.0",
+  "description": "It returns a copy of the array with the order of items randomized",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "manipulation",
+    "manipulator"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "dependencies": {
+    "basic-data-handling": "latest",
+    "@writetome51/array-non-modifying-getters-basic": "latest",
+    "@writetome51/array-get-and-removers-basic": "latest",
+    "@writetome51/get-random-integer-s": "latest"
+  }
+}
