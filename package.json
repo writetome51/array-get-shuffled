@@ -1,5 +1,5 @@
 {
-  "name": "@writetome51/get-shuffled",
+  "name": "@writetome51/array-get-shuffled",
   "version": "1.0.0",
   "description": "It returns a copy of the array with the order of items randomized",
   "main": "",
