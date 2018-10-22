@@ -1,8 +1,8 @@
 {
   "name": "@writetome51/array-get-shuffled",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "It returns a copy of the array with the order of items randomized",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,7 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
-    "@writetome51/array-non-modifying-getters-basic": "latest",
+    "@writetome51/array-get-copy": "latest",
     "@writetome51/get-random-integer-s": "latest"
   }
 }
