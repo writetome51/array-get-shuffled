@@ -24,7 +24,7 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
-    "@writetome51/array-get-copy": "latest",
-    "@writetome51/get-random-integer-s": "latest"
+    "@writetome51/array-get-copy": "1.1.0",
+    "@writetome51/get-random-integer-s": "1.0.2"
   }
 }
