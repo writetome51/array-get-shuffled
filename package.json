@@ -1,11 +1,19 @@
 {
   "name": "@writetome51/array-get-shuffled",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "It returns a copy of the array with the order of items randomized",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/array-get-shuffled.git"
+  },
+  "bugs": {
+    "url": "https://github.com/writetome51/array-get-shuffled/issues"
+  },
+  "homepage": "https://github.com/writetome51/array-get-shuffled#readme",
   "keywords": [
     "array",
     "shuffle",

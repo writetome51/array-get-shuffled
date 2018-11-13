@@ -1,5 +1,5 @@
 import { getRandomInteger } from '@writetome51/get-random-integer-s';
-import { getCopy } from '@writetome51/array-get-copy/getCopy';
+import { getCopy } from '@writetome51/array-get-copy';
 
 
 export function getShuffled(array): any[] {
