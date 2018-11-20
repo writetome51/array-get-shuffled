@@ -1,6 +1,6 @@
 To include:
 
-import {getShuffled} from '@writetome51/array-get-shuffled';
+    import {getShuffled} from '@writetome51/array-get-shuffled';
 
 getShuffled(array): any[]
 
