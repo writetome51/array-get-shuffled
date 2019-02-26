@@ -1,4 +1,4 @@
-import { getShuffled } from './getShuffled';
+import { getShuffled } from './index';
 
 
 let arr = [], i = -1;
