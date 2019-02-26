@@ -17,5 +17,5 @@ getShuffled(arr);
 // if using TypeScript:
 import {getShuffled} from '@writetome51/array-get-shuffled';
 // if using ES5 JavaScript:
-var getShuffled = require('@writetome51/array-get-shuffled');
+var getShuffled = require('@writetome51/array-get-shuffled').getShuffled;
 ```
