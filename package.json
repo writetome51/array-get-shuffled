@@ -1,7 +1,8 @@
 {
   "name": "@writetome51/array-get-shuffled",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "It returns a copy of the array with the order of items randomized",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -25,7 +26,7 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
-    "@writetome51/array-get-copy": "~1.1.2",
-    "@writetome51/get-random-integer-s": "~1.0.4"
+    "@writetome51/get-array-copy": "^1.0.0",
+    "@writetome51/get-random-integer-s": "^2.0.0"
   }
 }

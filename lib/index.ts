@@ -1,9 +1,9 @@
 import { getRandomInteger } from '@writetome51/get-random-integer-s';
-import { getCopy } from '@writetome51/array-get-copy';
+import { getArrayCopy } from '@writetome51/get-array-copy';
 
 
 export function getShuffled(array): any[] {
-	let arrayCopy = getCopy(array);
+	let arrayCopy = getArrayCopy(array);
 	let shuffled = [], maxRandom = arrayCopy.length - 1;
 
 	while (maxRandom > -1) {
