@@ -1,4 +1,4 @@
-import { getShuffled } from './index';
+import { getShuffled } from './index.js';
 let arr = [], i = -1;
 while (++i < 8) {
     arr.push(i);

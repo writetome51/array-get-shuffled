@@ -1,8 +1,8 @@
-import { getRandomInteger } from '@writetome51/get-random-integer-s';
-import { getArrayCopy } from '@writetome51/get-array-copy';
+import {getRandomInteger} from '@writetome51/get-random-integer-s';
+import {getArrayCopy} from '@writetome51/get-array-copy';
 
 
-export function getShuffled(array): any[] {
+export function getShuffled(array) {
 	let arrayCopy = getArrayCopy(array);
 	let shuffled = [], maxRandom = arrayCopy.length - 1;
 
