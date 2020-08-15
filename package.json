@@ -1,9 +1,10 @@
 {
   "name": "@writetome51/array-get-shuffled",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "It returns a copy of the array with the order of items randomized",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/writetome51/array-get-shuffled.git"
@@ -22,6 +23,7 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
+    "@writetome51/get-arr-filled": "^0.0.2",
     "@writetome51/get-array-copy": "^1.0.0",
     "@writetome51/get-random-integer-s": "^2.0.0"
   }
