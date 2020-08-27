@@ -1,18 +1,20 @@
-import {getArrayCopy} from '@writetome51/get-array-copy';
-import {getArrFilled} from '@writetome51/get-arr-filled';
 import {getRandomInteger} from '@writetome51/get-random-integer-s';
 
 
-export function getShuffled(array) {
-	let arr = getArrayCopy(array);
-	let length = arr.length, maxRandom = length - 1;
+export function shuffle(array) {
+	let maxRandom = array.length - 1;
 
-	return getArrFilled(length, () => {
+	while (maxRandom > 0) {
 		let randomIndex = getRandomInteger([0, maxRandom]);
-		let result = arr[randomIndex];
-
-		arr[randomIndex] = arr[maxRandom];
+		tradePlaces(randomIndex, maxRandom);
 		--maxRandom;
-		return result;
-	});
+	}
+
+
+	function tradePlaces(idxA, idxB) {
+		let randomItem = array[idxA];
+
+		array[idxA] = array[idxB];
+		array[idxB] = randomItem;
+	}
 }

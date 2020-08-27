@@ -1,18 +1,19 @@
-# getShuffled(array): any[]
+# shuffle(array): void
 
-Returns a new, shuffled version of `array`.  It does not modify `array`.
+Shuffles order of `array`.
 
 ## Example
 ```js
 let arr = [1,2,3,4,5,6,7,8];
-getShuffled(arr);
-// --> [4,8,3,1,5,7,6,2]
+shuffle(arr);
+console.log(arr);
+// [2,8,7,5,6,1,4,3]
 ```
 
 ## Installation
-`npm i  @writetome51/array-get-shuffled`
+`npm i  @writetome51/array-shuffle`
 
 ## Loading
 ```js
-import {getShuffled} from '@writetome51/array-get-shuffled';
+import {shuffle} from '@writetome51/array-shuffle';
 ```
